@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad128" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764BA2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#grad128)"/>
+  <rect x="40" y="30" width="48" height="68" fill="white"/>
+  <polygon points="72,30 88,46 88,30" fill="#E5E7EB"/>
+  <ellipse cx="55" cy="62" rx="8" ry="6" fill="#667EEA"/>
+  <ellipse cx="73" cy="75" rx="8" ry="6" fill="#764BA2"/>
+  <text x="64" y="92" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="middle">PDF</text>
+</svg>

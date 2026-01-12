@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat to PDF</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Chat to PDF</h1>
+      <p class="subtitle">Export your conversations</p>
+    </div>
+
+    <div id="status" class="status">
+      <div class="platform-detect">
+        <span id="platform-name">Detecting platform...</span>
+      </div>
+    </div>
+
+    <div class="options">
+      <label class="option">
+        <input type="checkbox" id="includeTimestamp">
+        <span>Include timestamp</span>
+      </label>
+      <label class="option">
+        <input type="checkbox" id="includePlatform">
+        <span>Include platform name</span>
+      </label>
+    </div>
+
+    <div class="actions">
+      <button id="generatePdf" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 2v10M8 12l-3-3M8 12l3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2 14h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Generate PDF
+      </button>
+    </div>
+
+    <div id="error" class="error hidden"></div>
+    <div id="success" class="success hidden"></div>
+
+    <div class="footer">
+      <p>Works with ChatGPT & Claude</p>
+    </div>
+  </div>
+
+  <script src="jspdf.umd.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

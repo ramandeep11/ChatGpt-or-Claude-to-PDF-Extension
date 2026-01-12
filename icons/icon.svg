@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="url(#gradient)"/>
+
+  <!-- PDF Document Icon -->
+  <path d="M40 30C40 27.7909 41.7909 26 44 26H68L88 46V94C88 96.2091 86.2091 98 84 98H44C41.7909 98 40 96.2091 40 94V30Z" fill="white"/>
+  <path d="M68 26L88 46H72C69.7909 46 68 44.2091 68 42V26Z" fill="#E5E7EB"/>
+
+  <!-- Chat Bubbles -->
+  <ellipse cx="55" cy="62" rx="8" ry="6" fill="#667EEA"/>
+  <ellipse cx="73" cy="75" rx="8" ry="6" fill="#764BA2"/>
+
+  <!-- PDF Text -->
+  <text x="64" y="92" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="middle">PDF</text>
+
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#667EEA"/>
+      <stop offset="1" stop-color="#764BA2"/>
+    </linearGradient>
+  </defs>
+</svg>
